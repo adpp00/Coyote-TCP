@@ -214,7 +214,7 @@ TCP window size:  128 KByte (default)
 ```
 ### Troubleshootings
 Ensure that the **MTU (Maximum Transmission Unit)** size is set large enough to support high throughput.  
-In our tests, an **8K MTU** (jumbo frame) was used.
+In our tests, an **8K payload size** (jumbo frame) was used.
 
 **Example command (HACC cluster):**
 ```bash
