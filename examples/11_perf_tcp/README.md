@@ -212,7 +212,7 @@ TCP window size:  128 KByte (default)
 [ 31] 0.0000-10.7457 sec  4.76 GBytes  3.81 Gbits/sec
 [SUM] 0.0000-10.7584 sec   115 GBytes  92.2 Gbits/sec
 ```
-### Troubleshootings
+### Troubleshooting
 Ensure that the **MTU (Maximum Transmission Unit)** size is set large enough to support high throughput.  
 In our tests, an **8K payload size** (jumbo frame) was used.
 
